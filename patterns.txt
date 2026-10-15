@@ -1,0 +1,10 @@
+# Tarea 1: Archivos .tsx de components y subcarpetas, excluyendo pruebas
+src/components/**/*.tsx
+!src/components/**/*.test.tsx
+
+# Tarea 2: Todos los archivos de utils y api, incluidas sus subcarpetas
+src/utils/**
+src/api/**
+
+# Tarea 3: Archivos .ts directamente dentro de components
+src/components/*.ts
